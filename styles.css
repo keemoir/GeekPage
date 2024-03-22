@@ -1,0 +1,210 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #282c34;
+    color: #abb2bf;
+    transition: background-color 0.3s, color 0.3s;
+    padding-bottom: 50px; /* 防止 footer 遮挡内容 */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden; /* 为了防止 float 元素影响布局 */
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #4caf50;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 3em;
+    color: #4caf50;
+}
+
+.btn {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #e8f059; /* 修改按钮悬停时的背景色为黄色 */
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #f5a938;
+}
+
+
+#about {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 20px; /* 添加上边距以与其他部分分隔开 */
+}
+
+#about h2 {
+    color: #4caf50;
+    margin-bottom: 10px; /* 调整标题的下边距 */
+}
+
+#about p {
+    color: #abb2bf;
+    line-height: 1.6;
+}
+
+
+
+.timeline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.event-block {
+    background-color: #1e1e1e; /* 设置事件块的背景色为方块的颜色 */
+    border-radius: 5px; /* 添加圆角以使其看起来更像方块 */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* 添加下边距以分隔不同的事件 */
+}
+
+.date {
+    color: #4caf50; /* 设置时间的颜色为绿色 */
+    font-weight: bold; /* 让时间文本加粗 */
+    margin-right: 10px; /* 添加右边距以与事件文本分隔开 */
+}
+
+.description {
+    color: #abb2bf; /* 设置事件的颜色为灰色 */
+    font-size: 0.9em; /* 设置事件文本字体大小 */
+}
+
+
+
+.description p {
+    margin: 0;
+    color: #abb2bf;
+}
+
+
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 垂直居中 */
+    align-items: center; /* 水平居中 */
+    background-color: #1e1e1e;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden; /* 避免图片溢出 */
+    padding-top: 20px; /* 添加顶部间距 */
+}
+
+.project img {
+    width: 40%; /* 调整图像宽度 */
+    max-height: 100%; /* 让高度自适应以保持图像比例 */
+    border-radius: 50%; /* 将边框半径设置为50%以使其成为圆形 */
+    object-fit: cover; /* 缩放图像以适应容器 */
+}
+
+.project-text {
+    padding: 10px;
+    background-color: #1e1e1e;
+    text-align: center; /* 文字居中 */
+}
+
+.project-text h3 {
+    margin-top: 0;
+    color: #86cbff;
+}
+.project-text h3 a {
+    text-decoration: none;
+    color: #86cbff;
+}
+
+.project-text p {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+    color: #ffffff;
+}
+
+
+
+
+.project-details {
+    padding: 10px;
+}
+
+.project-details h3 {
+    margin-top: 0;
+    color: #f5a938;
+}
+
+.project-details p {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+.social-icons {
+    margin: 20px auto;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: #f5f5f5;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #fcff2e; /* 修改社交图标悬停时的颜色*/
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff00;
+    text-align: center;
+    padding: 10px 0;
+}
+
