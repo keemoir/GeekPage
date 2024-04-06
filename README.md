@@ -33,7 +33,7 @@ git clone https://github.com/keemoir/GeekPage.git
 
 你可以通过以下方式联系我：
 
-- **邮箱：** keemoie@gmail.com 📧
+- **邮箱：** keemoir@gmail.com 📧
 - **GitHub：** [keemoir](https://github.com/keemoir) 💻
 - **推特：** [@keemoir](https://twitter.com/keemoir) 🐦
 
